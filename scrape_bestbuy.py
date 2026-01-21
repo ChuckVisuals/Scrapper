@@ -7,9 +7,6 @@ from datetime import datetime
 from pathlib import Path
 from supabase import create_client, Client
 from dotenv import load_dotenv
-from google.oauth2.service_account import Credentials
-from google.auth.transport.requests import Request
-from googleapiclient.discovery import build
 from items import ITEMS
 
 BASE_URL = "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st="
