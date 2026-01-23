@@ -23,7 +23,7 @@ ITEMS = [
     "Apple - iPhone 15 128GB (Unlocked) - Blue",
     "Apple - iPhone 15 128GB (Unlocked) - Black",
     "Apple - iPhone 15 128GB (Unlocked) - Pink",
-    "Apple - Refurbished Excellent - iPhone 15 128GB 6.1" 5G Fully Unlocked - Black",
+    "Apple - Refurbished Excellent - iPhone 15 128GB 6.1 5G Fully Unlocked - Black",
     "Apple - iPhone 16e 128GB - Apple Intelligence (Unlocked) - Black",
     "Apple - iPhone 16e 128GB - Apple Intelligence (Unlocked) - Black",
     "Apple - MacBook Air 13-inch Laptop - Apple M4 chip Built for Apple Intelligence - 16GB Memory - 256GB SSD - Silver",
@@ -35,14 +35,15 @@ ITEMS = [
     "Apple - AirPods Max (USB-C) - Orange",
     "Apple - AirPods Max (USB-C) - Purple",
     "Package - Apple - MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Space Black and Sony - Alpha 7R V Full-frame Mirrorless Camera with Interchangeable Lens (Body Only) - Black",
-    "Apple - MacBook Pro 16" Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Fair",
-    "Apple - MacBook Pro 16" Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Good",
-    "Apple - MacBook Pro 16" Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Excellent",
-    "Apple - Geek Squad Certified Refurbished MacBook Pro 16" Laptop - M3 Max chip - 48GB Memory - 40-core GPU - 1TB SSD - Silver",
+    "Apple - MacBook Pro 16 Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Fair",
+    "Apple - MacBook Pro 16 Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Good",
+    "Apple - MacBook Pro 16 Laptop - M3 Max chip Built for Apple Intelligence - 48GB Memory - 40-core GPU - 1TB SSD - Silver - Open Box - Excellent",
+    "Apple - Geek Squad Certified Refurbished MacBook Pro 16 Laptop - M3 Max chip - 48GB Memory - 40-core GPU - 1TB SSD - Silver",
     "Apple - MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Silver",
     "Apple - MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Space Black",
-    "Apple - Geek Squad Certified Refurbished MacBook Pro 16" Laptop - M3 Max chip - 48GB Memory - 40-core GPU - 1TB SSD - Silver"
+    "Apple - Geek Squad Certified Refurbished MacBook Pro 16 Laptop - M3 Max chip - 48GB Memory - 40-core GPU - 1TB SSD - Silver"
 
     
 
 ]
+
