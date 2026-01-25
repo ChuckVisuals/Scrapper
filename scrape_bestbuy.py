@@ -8,6 +8,7 @@ from pathlib import Path
 from supabase import create_client, Client
 from dotenv import load_dotenv
 from items import ITEMS
+from ebay_price_checker import find_product_avg_ebay
 
 BASE_URL = "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st="
 HEADERS = {
@@ -57,7 +58,6 @@ def get_price_from_link(link: str, timeout: float = 30.0) -> str:
     resp.encoding = resp.apparent_encoding or resp.encoding
     
     soup = BeautifulSoup(resp.text, "html.parser")
-    import json
     
     # Strategy 1: Look for price data in embedded JSON (Best Buy uses Apollo/GraphQL state)
     # Search for script tags containing price data
@@ -122,12 +122,15 @@ def upload_to_supabase(supabase: Client, item_name: str, link: str, price: str):
     if not supabase:
         return
     
+    avg = find_product_avg_ebay(item_name)
+    
     try:
         data = {
             "item_name": item_name,
             "product_url": link,
             "price": price,
-            "scraped_at": datetime.utcnow().isoformat()
+            "scraped_at": datetime.utcnow().isoformat(),
+            "ebay_avg_price": avg
         }
         
         result = supabase.table("price_history").insert(data).execute()

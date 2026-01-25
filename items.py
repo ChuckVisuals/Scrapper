@@ -42,8 +42,5 @@ ITEMS = [
     "Apple - MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Silver",
     "Apple - MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Space Black",
     "Apple - Geek Squad Certified Refurbished MacBook Pro 16 Laptop - M3 Max chip - 48GB Memory - 40-core GPU - 1TB SSD - Silver"
-
-    
-
 ]
 

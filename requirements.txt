@@ -2,3 +2,8 @@ requests==2.31.0
 beautifulsoup4==4.12.3
 supabase== 2.27.2
 python-dotenv==1.0.1
+selenium==4.11.2
+pytesseract==0.3.10
+pillow==10.3.0
+websockets==14.2
+
